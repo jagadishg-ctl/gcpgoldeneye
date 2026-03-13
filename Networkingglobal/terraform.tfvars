@@ -1,5 +1,5 @@
 project_id      = "project-3a74fae9-7db1-43b2-b32"
-new_project_id  = "networkingglobal-prod"
+new_project_id  = "networkingglobal-prod-956126"
 billing_account = "010B61-D7C8C7-A55D53"
 org_id          = "956126646486"
 region          = "us-central1"
