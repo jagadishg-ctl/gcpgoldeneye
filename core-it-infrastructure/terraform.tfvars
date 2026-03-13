@@ -1,0 +1,5 @@
+new_project_id  = "core-it-infra-prod"
+billing_account = "010B61-D7C8C7-A55D53"
+org_id          = "956126646486"
+region          = "us-central1"
+subnet_cidr     = "10.10.0.0/16"
