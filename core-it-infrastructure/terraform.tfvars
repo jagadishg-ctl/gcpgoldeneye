@@ -1,4 +1,4 @@
-new_project_id  = "core-it-infra-prod"
+new_project_id  = "core-it-infra-prod-956126"
 billing_account = "010B61-D7C8C7-A55D53"
 org_id          = "956126646486"
 region          = "us-central1"
