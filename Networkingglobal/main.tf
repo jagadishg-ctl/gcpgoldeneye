@@ -76,7 +76,7 @@ resource "google_compute_firewall" "allow_firezone_udp" {
 resource "google_compute_network_peering" "hub_to_spoke" {
   name         = "vpc-networking-vpn-to-jenkins-private"
   network      = google_compute_network.vpc_networkingVPN.self_link
-  peer_network = "projects/core-it-infra-prod/global/networks/jenkins-private"
+  peer_network = "projects/core-it-infra-prod-956126/global/networks/jenkins-private"
   
   export_custom_routes = true
   import_custom_routes = true
