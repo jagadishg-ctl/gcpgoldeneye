@@ -4,17 +4,17 @@
 
 output "vpc_name" {
   description = "The name of the VPC"
-  value       = google_compute_network.vpc_hub.name
+  value       = google_compute_network.vpc_networkingVPN.name
 }
 
 output "vpc_id" {
   description = "The ID of the VPC"
-  value       = google_compute_network.vpc_hub.id
+  value       = google_compute_network.vpc_networkingVPN.id
 }
 
 output "vpc_self_link" {
   description = "The URI of the VPC"
-  value       = google_compute_network.vpc_hub.self_link
+  value       = google_compute_network.vpc_networkingVPN.self_link
 }
 
 ################################################################################
