@@ -17,6 +17,11 @@ variable "billing_account" {
   description = "Billing account ID to associate with the new project"
 }
 
+variable "org_id" {
+  type        = string
+  description = "Organization ID where the new project will be created"
+}
+
 variable "region" {
   type        = string
   description = "GCP region to deploy resources"

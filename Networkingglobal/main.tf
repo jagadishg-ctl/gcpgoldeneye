@@ -7,6 +7,7 @@ resource "google_project" "networkingglobal" {
   name            = "Networkingglobal"
   project_id      = var.new_project_id
   billing_account = var.billing_account
+  org_id          = var.org_id
 }
 
 # Enable required Google Cloud APIs
