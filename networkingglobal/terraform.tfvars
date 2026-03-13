@@ -1,0 +1,5 @@
+project_id      = "project-3a74fae9-7db1-43b2-b32"
+new_project_id  = "networkingglobal-prod"
+billing_account = "01982D-43F9F4-BFB55C"
+region          = "us-central1"
+subnet_cidr     = "20.20.0.0/16"
